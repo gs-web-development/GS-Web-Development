@@ -35,6 +35,7 @@ body.theme-dark {
   --text-color: #ffffff;
   --gray-color: #c7c7c7;
   --hover-color: #74c0ff;
+  --transition: all 0.3s ease-in-out;
 }
 
 body.theme-light {
@@ -44,6 +45,7 @@ body.theme-light {
   --text-color: #333333;
   --gray-color: #666666;
   --hover-color: #004499;
+  --transition: all 0.3s ease-in-out;
 }
 
 body.theme-green {
@@ -53,6 +55,7 @@ body.theme-green {
   --text-color: #e0f5e8;
   --gray-color: #a0c9b8;
   --hover-color: #00ff7f;
+  --transition: all 0.3s ease-in-out;
 }
 
 /* BODY */
