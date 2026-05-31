@@ -1,3 +1,21 @@
+/**
+ * =====================================================
+ * ORBITAL CONNECT - MAIN SCRIPT
+ * Web Development Project - FIAP 2024
+ * =====================================================
+ * 
+ * Features:
+ * - Slideshow with 3 images
+ * - Form validation
+ * - Dynamic quiz with 10 questions
+ * - Theme system (3 colors)
+ * - LocalStorage persistence
+ * 
+ * Author: FIAP Global Solution Team
+ * Version: 1.0.0
+ * =====================================================
+ */
+
 // ===== SLIDESHOW =====
 
 let slideIndex = 1;
