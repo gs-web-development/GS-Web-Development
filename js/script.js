@@ -202,7 +202,8 @@ const quizData = [
       "Monitorar o clima global",
       "Criar uma estação espacial permanente"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "O objetivo principal é conectar regiões remotas"
   },
   {
     question: "Em qual órbita os satélites da Orbital Connect funcionam?",
@@ -212,7 +213,8 @@ const quizData = [
       "Órbita Média (MEO)",
       "Órbita Elíptica"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "Satélites em órbita baixa permitem menor latência"
   },
   {
     question: "Qual é a velocidade de internet oferecida pela solução?",
@@ -222,7 +224,8 @@ const quizData = [
       "Até 200 Mbps",
       "Até 500 Mbps"
     ],
-    correct: 2
+    correct: 2,
+    explanation: "A solução oferece velocidades de até 200 Mbps"
   },
   {
     question: "Quantas pessoas pretende conectar a Orbital Connect até 2030?",
@@ -232,7 +235,8 @@ const quizData = [
       "2 bilhões",
       "5 bilhões"
     ],
-    correct: 2
+    correct: 2,
+    explanation: "Meta é conectar 2 bilhões de pessoas"
   },
   {
     question: "Qual é um dos benefícios da Orbital Connect?",
@@ -242,7 +246,8 @@ const quizData = [
       "Substituição de redes 5G",
       "Eliminação de satélites antigos"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "Permite acesso à educação online em regiões remotas"
   },
   {
     question: "Qual tecnologia é essencial para a latência baixa?",
@@ -252,7 +257,8 @@ const quizData = [
       "Fibra óptica submarinha",
       "Redes 4G terrestres"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "Satélites de órbita baixa reduzem a latência"
   },
   {
     question: "Qual setor pode se beneficiar com a telemedicina via Orbital Connect?",
@@ -262,7 +268,8 @@ const quizData = [
       "Indústria automotiva",
       "Empresas de mídia"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "Comunidades rurais ganham acesso a telemedicina"
   },
   {
     question: "Como a Orbital Connect ajuda a agricultura?",
@@ -272,7 +279,8 @@ const quizData = [
       "Regulando preços de colheita",
       "Substituindo máquinas agrícolas"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "Fornece dados para agricultura de precisão"
   },
   {
     question: "Qual é o público-alvo principal da Orbital Connect?",
@@ -282,7 +290,8 @@ const quizData = [
       "Exclusivamente órgãos governamentais",
       "Empresas de telecomunicação apenas"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "Foca em comunidades remotas e agricultores"
   },
   {
     question: "Qual é a vantagem da Orbital Connect em relação à cobertura?",
@@ -292,7 +301,8 @@ const quizData = [
       "Cobre apenas zonas urbanas",
       "Cobre apenas um hemisfério"
     ],
-    correct: 1
+    correct: 1,
+    explanation: "Oferece cobertura global"
   }
 ];
 
