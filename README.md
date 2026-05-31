@@ -8,6 +8,10 @@
 
 O projeto complementa o trabalho realizado em **Frontend Design**, implementando funcionalidades interativas em JavaScript puro, validações, responsividade e recursos dinâmicos.
 
+### 🎯 Objetivo Principal
+
+Demonstrar domínio completo de desenvolvimento web com HTML5, CSS3 e JavaScript puro, criando uma aplicação interativa e responsiva com todos os requisitos solicitados pela disciplina.
+
 ---
 
 ## 🎯 Funcionalidades Principais
