@@ -158,13 +158,17 @@ function showError(fieldId, message) {
   
   field.classList.add('error');
   errorElement.textContent = message;
+  errorElement.style.display = 'block';
 }
 
 function clearAllErrors() {
   const errorElements = document.querySelectorAll('.error-message');
   const fields = document.querySelectorAll('.form-group input, .form-group textarea');
   
-  errorElements.forEach(el => el.textContent = '');
+  errorElements.forEach(el => {
+    el.textContent = '';
+    el.style.display = 'none';
+  });
   fields.forEach(field => field.classList.remove('error'));
 }
 
