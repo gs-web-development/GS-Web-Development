@@ -1,3 +1,11 @@
+/* 
+  ==============================================
+  ORBITAL CONNECT - STYLESHEET
+  Web Development Project - FIAP 2024
+  ==============================================
+  Reset, Variables, e Temas de Cores
+*/
+
 /* RESET CSS */
 
 *{
@@ -6,7 +14,7 @@
   box-sizing: border-box;
 }
 
-/* VARIÁVEIS */
+/* VARIÁVEIS GLOBAIS */
 
 :root{
   --bg-color: #070b1a;
@@ -15,6 +23,7 @@
   --text-color: #ffffff;
   --gray-color: #c7c7c7;
   --hover-color: #74c0ff;
+  --transition: all 0.3s ease-in-out;
 }
 
 /* TEMAS DE CORES */
