@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Orbital Connect | Global Solution FIAP</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <h1>Orbital Connect</h1>
+    </div>
+
+    <nav class="navbar">
+      <div class="dropdown">
+        <a href="#problema" class="menu-title">Problema</a>
+        <div class="dropdown-content">
+          <a href="pages/problema.html">Exibir Unitário</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#tecnologia" class="menu-title">Tecnologia</a>
+        <div class="dropdown-content">
+          <a href="pages/tecnologia.html">Exibir Unitário</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#objetivos" class="menu-title">Objetivos</a>
+        <div class="dropdown-content">
+          <a href="pages/objetivos.html">Exibir Unitário</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#publico" class="menu-title">Público</a>
+        <div class="dropdown-content">
+          <a href="pages/publico.html">Exibir Unitário</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#beneficios" class="menu-title">Benefícios</a>
+        <div class="dropdown-content">
+          <a href="pages/beneficios.html">Exibir Unitário</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#aplicacao" class="menu-title">Aplicação</a>
+        <div class="dropdown-content">
+          <a href="pages/aplicacao.html">Exibir Unitário</a>
+        </div>
+      </div>
+
+      <div class="theme-selector">
+        <button class="theme-btn" id="themeBtn" title="Mudar Tema">🎨</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Conectando regiões remotas através da tecnologia espacial</h2>
+
+      <p>
+        Solução baseada em satélites para ampliar acesso à internet, monitoramento e comunicação inteligente.
+      </p>
+
+      <a href="#problema" class="btn">Conhecer Projeto</a>
+    </div>
+  </section>
+
+  <!-- SLIDESHOW SECTION -->
+  <section id="slideshow-section" class="section-slideshow">
+    <h2>Galeria do Projeto</h2>
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <img src="images/problema.jpg" alt="Problema - Falta de conectividade">
+        <p class="slide-caption">Problema: Regiões remotas sem acesso à internet</p>
+      </div>
+      <div class="slide fade">
+        <img src="images/tecnologia.jpg" alt="Tecnologia - Satélites">
+        <p class="slide-caption">Solução: Tecnologia de satélites avançada</p>
+      </div>
+      <div class="slide fade">
+        <img src="images/beneficios.jpg" alt="Benefícios - Conectividade">
+        <p class="slide-caption">Resultado: Comunidades conectadas e desenvolvidas</p>
+      </div>
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 1 -->
+  <section id="problema" class="section">
+    <div class="text-content">
+      <h2>01. Problema</h2>
+
+      <p>
+        Milhões de pessoas ainda vivem sem internet confiável em regiões afastadas.
+      </p>
+
+      <p>
+        Falta de conectividade prejudica educação, segurança, agricultura e comunicação emergencial.
+      </p>
+    </div>
+
+    <div class="image-content">
+      <img src="images/problema.jpg" alt="Região remota sem acesso à internet">
+    </div>
+  </section>
+
+  <!-- SEÇÃO 2 -->
+  <section id="tecnologia" class="section reverse">
+    <div class="text-content">
+      <h2>02. Tecnologia</h2>
+
+      <p>
+        Orbital Connect utiliza constelações de satélites de órbita baixa para fornecer internet banda larga com baixa latência.
+      </p>
+
+      <p>
+        A tecnologia oferece cobertura global, velocidade até 200 Mbps e tempo de resposta mínimo.
+      </p>
+    </div>
+
+    <div class="image-content">
+      <img src="images/tecnologia.jpg" alt="Satélites em órbita">
+    </div>
+  </section>
+
+  <!-- SEÇÃO 3 -->
+  <section id="objetivos" class="section">
+    <div class="text-content">
+      <h2>03. Objetivos</h2>
+
+      <p>
+        Expandir acesso à internet para 2 bilhões de pessoas até 2030.
+      </p>
+
+      <p>
+        Suportar educação digital, telemedicina, agricultura de precisão e comunicação emergencial em zonas remotas.
+      </p>
+    </div>
+
+    <div class="image-content">
+      <img src="images/objetivos.jpg" alt="Objetivos e metas">
+    </div>
+  </section>
+
+  <!-- SEÇÃO 4 -->
+  <section id="publico" class="section reverse">
+    <div class="text-content">
+      <h2>04. Público-Alvo</h2>
+
+      <p>
+        Comunidades rurais, agricultores, pequenas empresas, instituições educacionais e de saúde em áreas remotas.
+      </p>
+
+      <p>
+        Organizações humanitárias e governos que buscam inclusão digital e desenvolvimento sustentável.
+      </p>
+    </div>
+
+    <div class="image-content">
+      <img src="images/publico.jpg" alt="Público-alvo do projeto">
+    </div>
+  </section>
+
+  <!-- SEÇÃO 5 -->
+  <section id="beneficios" class="section">
+    <div class="text-content">
+      <h2>05. Benefícios</h2>
+
+      <p>
+        Acesso à educação online, telemedicina, e-commerce digital, criação de empregos e desenvolvimento econômico.
+      </p>
+
+      <p>
+        Redução de desigualdade digital, melhoria na qualidade de vida e oportunidades de inovação em regiões remotas.
+      </p>
+    </div>
+
+    <div class="image-content">
+      <img src="images/beneficios.jpg" alt="Benefícios do projeto">
+    </div>
+  </section>
+
+  <!-- SEÇÃO 6 -->
+  <section id="aplicacao" class="section reverse">
+    <div class="text-content">
+      <h2>06. Aplicação Prática</h2>
+
+      <p>
+        Implementação de infraestrutura em regiões prioritárias, parcerias com governos locais e operadores de telecom.
+      </p>
+
+      <p>
+        Suporte técnico contínuo, treinamento de usuários e monitoramento de qualidade de serviço garantem sucesso da solução.
+      </p>
+    </div>
+
+    <div class="image-content">
+      <img src="images/aplicacao.jpg" alt="Aplicação prática">
+    </div>
+  </section>
+
+  <!-- FORMULÁRIO SECTION -->
+  <section id="contato-section" class="section-form">
+    <h2>Entre em Contato</h2>
+    <form id="contactForm" class="contact-form">
+      <div class="form-group">
+        <label for="nome">Nome Completo *</label>
+        <input type="text" id="nome" name="nome" required>
+        <span class="error-message" id="nomeError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error-message" id="emailError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Telefone *</label>
+        <input type="tel" id="telefone" name="telefone" required>
+        <span class="error-message" id="telefoneError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="mensagem">Mensagem *</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        <span class="error-message" id="mensagemError"></span>
+      </div>
+
+      <button type="submit" class="btn-submit">Enviar Mensagem</button>
+      <div class="success-message" id="successMessage"></div>
+    </form>
+  </section>
+
+  <!-- QUIZ SECTION -->
+  <section id="quiz-section" class="section-quiz">
+    <h2>Quiz do Orbital Connect</h2>
+    <p class="quiz-intro">Teste seus conhecimentos sobre a solução de conectividade via satélite!</p>
+
+    <div id="quizContainer" class="quiz-container">
+      <div id="quizContent"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2024 Orbital Connect | Global Solution FIAP</p>
+    <p>Projeto desenvolvido para conectar o mundo</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
