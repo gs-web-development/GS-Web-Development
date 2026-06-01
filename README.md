@@ -100,33 +100,6 @@ web_development/
 
 ---
 
-## 🚀 Como Executar
-
-### Opção 1: Abrir no Navegador
-1. Navegue até a pasta `web_development`
-2. Abra `index.html` diretamente no seu navegador
-
-### Opção 2: Servidor Local Python
-```bash
-cd web_development
-python -m http.server 8000
-# Acesse http://localhost:8000
-```
-
-### Opção 3: Servidor Local Node.js
-```bash
-cd web_development
-npx http-server
-# Acesse http://127.0.0.1:8080
-```
-
-### Opção 4: VS Code Live Server
-1. Instale a extensão "Live Server"
-2. Clique com botão direito em `index.html`
-3. Selecione "Open with Live Server"
-
----
-
 ## ✨ Seções da Página
 
 ### Home
@@ -153,8 +126,7 @@ npx http-server
 - Revisão detalhada
 
 ### Footer
-- Informações do projeto
-- Link para repositório
+- Nomes dos integrantes e RM
 
 ---
 
@@ -209,16 +181,6 @@ npx http-server
 
 ---
 
-## 🔄 Commits Realizados
-
-Este projeto foi desenvolvido com versionamento Git, seguindo as melhores práticas:
-
-- ✅ Mínimo 15 commits realizados
-- ✅ Uso de branches para desenvolvimento
-- ✅ Merge para branch principal (main/master)
-- ✅ Mensagens de commit descritivas
-- ✅ Histórico completo preservado
-
 ---
 
 ## 📱 Responsividade
@@ -241,34 +203,6 @@ O projeto é totalmente responsivo com breakpoints em:
 
 ---
 
-## 🐛 Navegadores Suportados
-
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-- ✅ Opera 76+
-
----
-
-## 📝 Requisitos Atendidos
-
-- ✅ Utilização de branches para desenvolvimento
-- ✅ Organização no Github criada
-- ✅ Repositório dentro da organização
-- ✅ Participação de equipe via commits
-- ✅ Mínimo de 15 commits
-- ✅ Projeto sem frameworks (JavaScript puro)
-- ✅ Slideshow com 3 imagens
-- ✅ Formulários com validação
-- ✅ Quiz dinâmico com 10 perguntas
-- ✅ Resultado final do quiz
-- ✅ 3 opções de tema de cor
-- ✅ Arquivo equipe.txt
-- ✅ Arquivo AI.md (uso de IA documentado)
-
----
-
 ## 👥 Equipe
 
 Veja o arquivo `equipe.txt` para informações completos dos integrantes e seus RMs.
@@ -277,7 +211,6 @@ Veja o arquivo `equipe.txt` para informações completos dos integrantes e seus 
 
 ## 📚 Documentação
 
-- **AI.md**: Documentação completa do uso de Inteligência Artificial
 - **equipe.txt**: Informações dos integrantes e repositório
 - **README.md**: Este arquivo com documentação do projeto
 
@@ -288,7 +221,7 @@ Veja o arquivo `equipe.txt` para informações completos dos integrantes e seus 
 - **Curso**: FIAP
 - **Disciplina**: Web Development
 - **Tipo**: Global Solution
-- **Período**: 2024
+- **Período**: 2026
 
 ---
 
@@ -305,5 +238,5 @@ Este projeto é fornecido como é para fins educacionais.
 ---
 
 **Versão**: 1.0  
-**Última atualização**: 2024  
+**Última atualização**: 2026  
 **Status**: ✅ Completo e Funcional
