@@ -73,7 +73,7 @@ web_development/
    git init
 
    # Adicionar o remote
-   git remote add origin https://github.com/[SUA-ORG]/GS-Web-Development.git
+   git remote add origin https://github.com/GS-Web-Development/GS-Web-Development.git
 
    # Configurar branch principal
    git branch -M main
@@ -104,12 +104,8 @@ Para garantir os mínimo 15 commits, execute:
 # Commit 1: Setup do projeto
 git add .
 git commit -m "feat: Initialize Orbital Connect Web Development project"
-
-# Commit 2: HTML Structure
 git add index.html pages/
 git commit -m "feat: Add HTML5 semantic structure and pages"
-
-# Commit 3: CSS Styling
 git add css/style.css
 git commit -m "feat: Implement CSS3 styling with responsive design"
 
@@ -167,7 +163,7 @@ Edite o arquivo `equipe.txt` com:
 - Nomes dos integrantes
 - RMs dos integrantes
 - Link do repositório GitHub
-
+ 
 Exemplo:
 ```
 1. Nome: João Silva
