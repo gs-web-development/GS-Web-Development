@@ -159,7 +159,7 @@ git commit -m "perf: Final polish and optimization"
 # Criar tag para primeira versão
 git tag -a v1.0 -m "Release version 1.0 - Complete Web Development"
 git push origin v1.0
-```
+``` 
 
 ### ETAPA 5: Preencher Informações da Equipe
 
